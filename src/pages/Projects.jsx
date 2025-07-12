@@ -12,7 +12,7 @@ const projects = [
     description: 'A responsive portfolio built using React and Tailwind CSS.',
     tech: ['React', 'Tailwind', 'Framer Motion'],
     image: portfolio,
-    link: '',
+    link: 'https://github.com/AnjaliRayyy/Portfolio2.0',
   },
   {
     title: 'Discord GPT Bot',
