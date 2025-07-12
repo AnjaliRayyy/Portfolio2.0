@@ -39,7 +39,7 @@ const About = () => {
         <div className="flex flex-col md:flex-row items-center gap-10">
           {/* Image Section */}
           <motion.div
-            className="w-64 h-64 rounded-2xl overflow-hidden border-4 border-blue-500 shadow-lg"
+            className="w-64 h-64 rounded-2xl overflow-hidden border-4 border-blue-500 shadow-lg hidden md:block"
             initial={{ scale: 0.9, opacity: 0 }}
             whileInView={{ scale: 1, opacity: 1 }}
             transition={{ duration: 0.6 }}
