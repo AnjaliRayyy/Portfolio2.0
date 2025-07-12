@@ -28,10 +28,10 @@ const Hero = () => {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.7 }}
         >
-          <h1 className="text-4xl md:text-5xl font-bold text-gray-900 dark:text-white mb-4">
+          <h1 className="text-4xl md:text-5xl font-bold text-gray-50 dark:text-white mb-4">
             Hi, I'm <span className="text-white">Anjali</span>
           </h1>
-          <p className="text-xl text-gray-600 dark:text-gray-300 mb-6">
+          <p className="text-xl text-gray-300 dark:text-gray-300 mb-6">
             A Front-End Developer crafting clean and responsive web experiences.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center md:justify-start">

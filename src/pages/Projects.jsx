@@ -87,6 +87,7 @@ const Projects = () => {
       layout
       transition={{ type: 'spring', stiffness: 100, damping: 18 }}
       whileHover={{ scale: 1.07 }}
+     
     >
       <img
         src={project.image}

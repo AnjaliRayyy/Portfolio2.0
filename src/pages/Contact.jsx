@@ -47,7 +47,7 @@ const Contact = () => {
   return (
     <section
       id="contact"
-      className=" bg-white text-slate-600 dark:bg-slate-900 dark:text-white py-20 px-6 md:px-16"
+      className=" bg-gray-50 text-slate-600 dark:bg-slate-900 dark:text-white py-20 px-6 md:px-16"
     >
       <div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-12 items-center">
         {/* LEFT: Contact Info */}
@@ -126,14 +126,14 @@ const Contact = () => {
           whileInView={{ x: 0, opacity: 1 }}
           transition={{ duration: 0.8, ease: "easeOut", delay: 0.2 }}
           viewport={{ once: true }}
-          className="w-full md:w-[70%] lg:w-[75%] bg-slate-950 p-8 rounded-xl shadow-lg"
+          className="w-full md:w-[70%] lg:w-[75%] bg-blue-300 dark:bg-slate-950 p-8 rounded-xl shadow-lg"
         >
           <form className="space-y-6" onSubmit={handleSubmit}>
             {/* Name */}
             <div className="flex flex-col">
               <label
                 htmlFor="name"
-                className="text-sm font-medium text-gray-300 mb-1"
+                className="text-sm font-medium text-slate-600 dark:text-gray-300 mb-1"
               >
                 Your Name
               </label>
@@ -145,7 +145,7 @@ const Contact = () => {
                 value={formData.name}
                 onChange={handleChange}
                 placeholder="Enter your name"
-                className="bg-slate-800 text-white px-4 py-2 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
+                className="bg-white border border-blue-300 text-blue-900 px-4 py-2 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 dark:bg-slate-800 dark:text-white"
               />
             </div>
 
@@ -153,7 +153,7 @@ const Contact = () => {
             <div className="flex flex-col">
               <label
                 htmlFor="email"
-                className="text-sm font-medium text-gray-300 mb-1"
+                className="text-sm font-medium text-slate-600 dark:text-gray-300 mb-1"
               >
                 Your Email
               </label>
@@ -165,7 +165,7 @@ const Contact = () => {
                 value={formData.email}
                 onChange={handleChange}
                 placeholder="Enter your email"
-                className="bg-slate-800 text-white px-4 py-2 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
+                className="bg-white border border-blue-300 text-blue-900 px-4 py-2 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 dark:bg-slate-800 dark:text-white"
               />
             </div>
 
@@ -173,7 +173,7 @@ const Contact = () => {
             <div className="flex flex-col">
               <label
                 htmlFor="message"
-                className="text-sm font-medium text-gray-300 mb-1"
+                className="text-sm font-medium text-slate-600 dark:text-gray-300 mb-1"
               >
                 Your Message
               </label>
@@ -185,7 +185,7 @@ const Contact = () => {
                 value={formData.message}
                 onChange={handleChange}
                 placeholder="Write your message..."
-                className="bg-slate-800 text-white px-4 py-2 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 resize-none"
+                className="bg-white border border-blue-300 text-blue-900 px-4 py-2 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 resize-none dark:bg-slate-800 dark:text-white"
               />
             </div>
 

@@ -24,7 +24,7 @@ const About = () => {
     <>
     <section
       id="about"
-      className="py-20 bg-gray-50 dark:bg-slate-900 text-gray-800 dark:text-gray-100"
+      className="py-20 bg-white dark:bg-slate-900 text-gray-800 dark:text-gray-100"
     >
       <div className="max-w-6xl mx-auto px-6">
         <motion.h2
@@ -103,7 +103,7 @@ const About = () => {
 
           {/* Text content centered */}
           <div className="mx-auto text-center w-full md:w-[60%]">
-            <h4 className="text-lg font-semibold text-white dark:text-white">
+            <h4 className="text-lg font-semibold text-slate-950 dark:text-white">
               {item.title}
             </h4>
             <p className="text-sm text-gray-400">{item.institution}</p>
