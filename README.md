@@ -36,7 +36,7 @@ Live Demo 🌐: [https://anjalirayportfolio.vercel.app](https://anjalirayportfol
 
   ```bash
   # Clone the repository
-  git clone https://github.com/yourusername/Portfolio2.0.git
+  git clone https://github.com/AnjaliRayyy/Portfolio2.0.git
   cd Portfolio2.0
   
   # Install dependencies
