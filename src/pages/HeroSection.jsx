@@ -42,7 +42,7 @@ const Hero = () => {
               <Eye size={18} /> View Projects
             </a>
             <a
-              href="https://drive.google.com/file/d/1VpouAC5aXq_QYBp1uEfDESRyzxNManwl/view?usp=sharing"
+              href="https://drive.google.com/file/d/1lAUgP0EqpuyuuV54cqmIUGYH8clRN7nz/view?usp=sharing"
               download
               target="_blank"
               rel="noopener noreferrer"

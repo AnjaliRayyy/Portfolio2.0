@@ -31,7 +31,7 @@ const Navbar = () => {
 
         {/* Resume Button */}
         <a
-          href="https://drive.google.com/file/d/1VpouAC5aXq_QYBp1uEfDESRyzxNManwl/view?usp=sharing"
+          href="https://drive.google.com/file/d/1lAUgP0EqpuyuuV54cqmIUGYH8clRN7nz/view?usp=sharing"
           target="_blank"
           rel="noopener noreferrer"
           className="hidden md:inline-block px-4 py-2 bg-slate-900 dark:bg-blue-600 text-white rounded-xl hover:bg-slate-700 dark:hover:bg-blue-700 transition"
